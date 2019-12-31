@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="description" content="一般社団法人 住宅生産団体連合会のウェブサイトです。" />
+<meta name="keywords" content="住宅生産団体連合会,住団連,200年住宅,HouseingNet,すまいWeb,住宅,消費税" />
+<meta name="Robots" content="all, index, follow" />
+<meta name="author" content="Japan Federation of Gousing Organizations" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<title>ssassaaaa</title>
+<link rel="start" href="index.html" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="canonical" href="https://www.judanren.or.jp/index.html" />
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+<link type="text/css" rel="stylesheet" href="css/meanmenu.css" />
+<link type="text/css" rel="stylesheet" href="css/top.css" />
+<link type="text/css" rel="stylesheet" href="css/responsive.css" />
+<style type="text/css">
+/* PDF link */
+dd a[href$=".pdf"] {
+	background: url(img/icon_pdf_news.png) no-repeat right;
+	padding-right:15px;
+	height:12px;
+	}
+</style>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/navi_pagetop.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/fontsize.js"></script>
+<script type="text/javascript" src="js/jquery.meanmenu.min.js"></script>
+<script type="text/javascript" src="js/view_timer.js"></script>
+<script type="text/javascript" src="js/userAgent_top.js"></script>
+<script>
+var searchItem = '.info_item';
+var listItem = '.list_item';
+var hideClass = 'is-hide';
+var activeClass = 'is-active';
+$(function() {
+	$(searchItem).on('click', function() {
+		$(searchItem).removeClass(activeClass);
+		var group = $(this).addClass(activeClass).data('group');
+		search_filter(group);
+	});
+});
+function search_filter(group) {
+	$(listItem).removeClass(hideClass);
+	if(group === '') {
+		return;
+	}
+	for (var i = 0; i < $(listItem).length; i++) {
+		var itemData = $(listItem).eq(i).data('group');
+		if(itemData !== group) {
+			$(listItem).eq(i).addClass(hideClass);
+		}
+	}
+}
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135608942-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135608942-1');
+</script>
+
+</head>
+<body id="top">
+<!--
+=======================================================================================
+header
+=======================================================================================
+--><!-- #BeginLibraryItem "/Library/header.lbi" --><header id="header">
+  <div class="wrap">
+    <div class="inner clearfix">
+      <h1><a href="index.html"><img src="img/hd_logo.png" alt="一般社団法人 住宅生産団体連合会" /></a></h1>
+      <div id="head_navi">
+        <div class="letter_size">
+          <ul>
+          <li class="mtitle">文字サイズ変更</li>
+					<li id="fontS"><span>小</span></li>
+					<li id="fontM"><span>中</span></li>
+					<li id="fontL"><span>大</span></li>
+          </ul>
+        </div><!-- .letter_size -->
+        
+				<div id="google_search">
+          <script>
+            (function() {
+              var cx = '003990377515042303293:zravonrr7de';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search></gcse:search>
+        </div><!-- #google_search -->
+        <div id="smal_link">
+          <ul>
+            <li><a href="about/access.html">アクセス</a>　/　</li>
+            <li><a href="about/contact.html">お問合せ</a>　/　</li>
+            <li><a href="english/index.html" target="_blank">English</a>　/　</li> 
+          </ul>
+        </div><!-- #smal_link -->
+  </div><!-- #head_navi -->
+  </div><!-- .inner -->
+  </div><!-- .wrap -->
+    <div class="wrap">
+    <div class="inner">
+      <div class="h_nav">
+        <nav id="gNav">
+          <ul class="nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">住団連について<i class="fa fa-angle-down"></i></a>
+	            <ul class="sub-menu">
+								<li><a href="about/aboutus.html"><dl><dt>住団連とは</dt><dd>ご挨拶と構成団体のご紹介</dd></dl></a></li>
+	              <li><a href="about/activities.html"><dl><dt>事業概要</dt><dd>当会の役割と業務内容のご紹介</dd></dl></a></li>
+	              <li><a href="about/charter.html"><dl><dt>倫理憲章</dt><dd>倫理憲章の制定経緯と内容のご紹介</dd></dl></a></li>
+	              <li><a href="about/information.html"><dl><dt>情報公開</dt><dd>定款、役員・会員名簿、事業計画・報告、財務諸表など</dd></dl></a></li>
+	              <li><a href="about/access.html"><dl><dt>アクセス・問い合わせ</dt><dd>事務所概要、地図、メールでの問い合わせ</dd></dl></a></li>
+	              <li><a href="about/link.html"><dl><dt>関連リンク</dt><dd>団体会員、企業会員、賛助会員、官公庁・関連機関他</dd></dl></a></li>
+	            </ul></li>
+            <li><a href="#">活動内容<i class="fa fa-angle-down"></i></a>
+							<ul class="sub-menu">
+							  <li><a href="activity/demand-proposal.html"><dl><dt>要望・提言</dt><dd>住宅税制・予算、その他関連施策に対する要望、提言</dd></dl></a></li>
+								<li><a href="activity/committee.html"><dl><dt>委員会</dt><dd>委員会のご紹介と活動報告</dd></dl></a></li>
+								<li><a href="activity/proposal-activity.html"><dl><dt>各種調査報告</dt><dd>住宅景況感調査、住宅業況調査、顧客実態調査、労働災害発生状況など</dd></dl></a></li>
+								<li><a href="activity/event.html"><dl><dt>イベント・講習会</dt><dd>当会が主催するイベント、講習会のご案内</dd></dl></a></li>
+								<li><a href="activity/other.html"><dl><dt>その他</dt><dd>社会保険加入促進計画、住団連からのお知らせなど</dd></dl></a></li>
+							</ul></li>
+            <li><a href="#">行政情報<i class="fa fa-angle-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="administrative_info/housing_tax.html"><dl><dt>住宅税制関連</dt><dd>住宅関連税制改正の概要、各税制の概要</dd></dl></a></li>
+								<li><a href="administrative_info/building_law.html"><dl><dt>建築法令関連</dt><dd>建築基準法の一部を改正する法律など</dd></dl></a></li>
+								<li><a href="administrative_info/other_law.html"><dl><dt>その他法令関連</dt><dd>長期優良住宅法、住生活基本法、住宅品質確保法、都市低炭素化促進法、建築物省エネ法など</dd></dl></a></li>
+								<li><a href="administrative_info/policy.html"><dl><dt>政策・制度関連</dt><dd>すまい給付金、次世代住宅ポイント制度など</dd></dl></a></li>
+								<li><a href="administrative_info/statistics.html"><dl><dt>住宅関連統計</dt><dd>建築着工統計データ、住宅土地統計調査など</dd></dl></a></li>
+								<li><a href="administrative_info/industry_news.html"><dl><dt>業界の動向・ニュース</dt><dd>構成団体、会員、関連機関などからのお知らせ</dd></dl></a></li>
+							</ul></li>
+            <li><a href="#">出版物<i class="fa fa-angle-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="publication/journal.html"><dl><dt>機関誌「住団連」</dt><dd>最新号、バックナンバーのダウンロード</dd></dl></a></li>
+								<li><a href="publication/press.html"><dl><dt>住団連プレス</dt><dd>最新号、注文フォーム</dd></dl></a></li>
+								<li><a href="publication/publication.html"><dl><dt>その他出版物</dt><dd>当会が発行している出版物の紹介、注文フォーム</dd></dl></a></li>
+							</ul></li>
+							<li><a href="#">書式ダウンロード<i class="fa fa-angle-down"></i></a>
+								<ul class="sub-menu">
+									<li><a href="download/download_01.html"><dl><dt>建築廃棄物委託基本契約書</dt><dd>契約書類ダウロード、CD-R注文フォーム、参考資料</dd></dl></a></li>
+									<li><a href="download/download_02.html"><dl><dt>安全教育報告書（記録書）</dt><dd>報告書（記録書）ダウンロード</dd></dl></a></li>
+									<li><a href="download/download_03.html"><dl><dt>アスベストに係る事前調査結果の掲示例および記載例</dt><dd>レベル1・2掲示例および記載例、レベル3掲示例および記載例</dd></dl></a></li>
+								</ul></li>
+						<li class="sp_main"><!-- #letter_size -->
+						<div id="google_search">
+		          <script>
+		            (function() {
+		              var cx = '003990377515042303293:zravonrr7de';
+		              var gcse = document.createElement('script');
+		              gcse.type = 'text/javascript';
+		              gcse.async = true;
+		              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+		              var s = document.getElementsByTagName('script')[0];
+		              s.parentNode.insertBefore(gcse, s);
+		            })();
+		          </script>
+		          <gcse:search></gcse:search>
+		        </div><!-- #google_search --></li>
+						<li class="sp_main"><a href="about/access.html">アクセス</a></li>
+						<li class="sp_main"><a href="about/information.html">お問合せ</a></li>
+						<li class="sp_main"><a href="">English</a></li>
+          </ul>
+          <div class="mask"></div>
+        </nav><!-- #gNav -->
+       </div><!-- .h_nav -->
+    </div><!-- .inner -->
+    </div><!-- .wrap -->
+</header><!-- #EndLibraryItem --><!--
+=======================================================================================
+cover
+=======================================================================================
+-->
+<div class="wrap">
+  <div id="cover">
+		<div id="cover02"></div>
+		<div id="cover03">
+			<div class="treeL">
+				<img src="img/cover03tree_l.png" />
+			</div>
+			<div class="treeR">
+				<img src="img/cover03tree_r.png" />
+			</div>
+		</div>
+		<h1>豊かな住生活の実現を目指して<span><img src="img/mark_h1.png" alt="住団連" /></span></h1>
+		<div id="info_timer">
+			<p class="infomation view_timer" data-end-date="2019/9/1 0:00">
+			<p align="center">2019年4月1日（月）よりWEBサイトをリニューアルいたしました。<br>スマートフォンなどモバイルにも対応しております。</p>
+(ご注意)<br />
+WEBサイトのリニューアルにともない、一部のページのURLが変更になりました。<br />
+ブラウザの「お気に入り」などに登録されている場合は、お手数をお掛け致しますが、
+ URLの登録変更をお願いいたします。<br />
+</p>
+    </div><!-- #info_timer .infomation -->
+<!--
+=======================================================================================
+-->
+
+  </div><!-- #cover -->
+</div><!-- .wrap -->
+<!--
+=======================================================================================
+top contents
+=======================================================================================
+-->
+<article>
+  <div class="wrap">
+    <div class="inner clearfix">
+    <div style="float:left">
+      <div class="col3left">
+        <h2>お知らせ<span><a href="info/">お知らせ一覧</a></span></h2>
+				<ul class="info_tab">
+					<li class="info_item is-active" data-group="">すべて</li>
+					<li class="info_item" data-group="a">調　査</li>
+					<li class="info_item" data-group="d">要望･提言</li>
+					<li class="info_item" data-group="e">委員会</li>
+					<li class="info_item" data-group="c">出版物</li>					
+					<li class="info_item" data-group="b">講習会等</li>
+
+
+
+				</ul>
+			  <div class="info_box">
+			    <ul class="list">
+			      <li class="list_item clearfix view_timer" data-end-date="2019/8/1 0:00" data-group="e"><dl><dt><span class="icon_green">委員会</span><span class="date">2019/04/01</span></dt><dd><a href="activity/committee/kisei.html">2018年度版<br>小規模建築物の増改築における建築確認申請の手引き</a><span class="icon_new view_timer" data-end-date="2019/4/30 23:59">NEW</span></dd></dl></li>	
+					
+			      <li class="list_item clearfix view_timer" data-end-date="2019/8/1 0:00" data-group="d"><dl><dt><span class="icon_orange">要望･提言</span><span class="date">2019/03/25</span></dt><dd><a href="activity/pdf/h31_zeiseikaisei.pdf" target="_blank">平成３１年度 住宅関連税制改正の概要</a><span class="icon_new view_timer" data-end-date="2019/4/30 23:59">NEW</span></dd></dl></li>
+					
+			      <li class="list_item clearfix view_timer" data-end-date="2019/8/1 0:00" data-group="e"><dl><dt><span class="icon_green">委員会</span><span class="date">2019/03/22</span></dt><dd><a href="activity/event/ehon/picture_book_15_1903.pdf" target="_blank">第15回「家やまちの絵本」コンクール開催のお知らせ</a><span class="icon_new view_timer" data-end-date="2019/4/30 23:59">NEW</span></dd></dl></li>
+					
+			      <li class="list_item clearfix view_timer" data-end-date="2019/8/1 0:00" data-group="c"><dl>
+			        <dt><span class="icon_red">出版物</span><span class="date">2019/03/08</span></dt><dd><a href="publication/journal.html">機関誌「住団連」平成31年3月号　Vol.304　掲載</a><span class="icon_new view_timer" data-end-date="2019/4/8 23:59">NEW</span><br><font size="-1"><a href="publication/journal_pdf/k1903.pdf" target="_blank">PDFを見る</a></font></dd></dl></li>
+					
+				      <li class="list_item clearfix view_timer" data-end-date="2019/8/1 0:00" data-group="a"><dl>
+			        <dt><span class="icon_brown">調　査</span><span class="date">2019/02/28</span></dt><dd><a href="activity/proposal-activity/report02/index.html">平成30年度 第4回　住宅業況調査報告</a><span class="icon_new view_timer" data-end-date="2019/3/28 23:59">NEW</span><br><font size="-1">注文住宅、賃貸住宅ともに購買意欲が振るわず<br><a href="publication/journal_pdf/k1903.pdf" target="_blank">PDFを見る</a></font></dd>
+			        </dl></li>
+					      <li class="list_item clearfix view_timer" data-end-date="2019/8/1 0:00" data-group="a"><dl>
+			        <dt><span class="icon_brown">調　査</span><span class="date">2019/01/29</span></dt><dd><a href="activity/proposal-activity/report01/index.html">平成31年1月度　経営者の住宅景況感調査報告</a><span class="icon_new view_timer" data-end-date="2019/3/3 23:59">NEW</span><br><font size="-1">全セグメントで持ち直し基調も各社に温度差あり。<br>PDFを見る </font></dd></dl></li>
+
+				<li class="list_item clearfix view_timer" data-end-date="2019/9/11 21:00" data-group="e"><dl><dt><span class="icon_green">委員会</span><span class="date">2019/01/10</span></dt><dd><a href="activity/pdf/H30_support measures181225_2.pdf" target="_blank">「消費税率引上げに伴う住宅取得・リフォーム支援策」</a><span class="icon_new view_timer" data-end-date="2019/2/12 15:00">NEW</span><br><font size="-1">住団連リーフレット　2019年1月10日 改訂版 掲載 </font></dd></dl></li>
+
+					<li class="list_item clearfix view_timer" data-end-date="2019/8/1 0:00" data-group="e"><dl>
+					  <dt><span class="icon_green">委員会</span><span class="date">2018/12/04</span></dt><dd><a href="http://www.jutaku-sumai.jp/ehon/index.html" target="_blank">第14回「家やまちの絵本」コンクール受賞作品集　完成！</a><span class="icon_new view_timer" data-end-date="2018/4/30 23:59">NEW</span></dd></dl></li>
+
+					<li class="list_item" data-group="d"><dl>
+						  <dt><span class="icon_orange">要望･提言</span><span class="date">2018/11/26</span></dt><dd><a href="activity/pdf/h31_request181122.pdf" target="_blank">平成31年度住宅関係予算・税制改正要望（重点要望事項）　</a></dd></dl></li>
+					<li class="list_item" data-group="e"><dl>
+					  <dt><span class="icon_green">委員会</span><span class="date">2018/10/11</span></dt><dd><a href="activity/committee/seino.html">「これからの住宅トレンド（Vol.1,2）」リーフレットの発行について</a></dd></dl></li>
+
+
+				<li class="list_item" data-group="a"><dl><dt><span class="icon_brown">調　査</span><span class="date">2018/08/31</span></dt><dd><a href="activity/proposal-activity/report03/index.html">「2017年度 戸建注文住宅の顧客実態調査」報告</a></dd></dl></li>
+
+				<li class="list_item" data-group="d"><dl>
+						  <dt><span class="icon_orange">要望･提言</span><span class="date">2018/08/27</span></dt><dd><a href="activity/pdf/h31_request180827.pdf" target="_blank">平成31年度住宅関係予算・税制改正要望（税制・予算）</a></dd></dl></li>
+				<li class="list_item" data-group="d"><dl>
+						  <dt><span class="icon_orange">要望･提言</span><span class="date">2018/07/31</span></dt><dd>【消費税率１０％引上げに伴う住宅需要落込み防止対策について（要望）】<br>
+						  <a href="activity/demand-proposal/180704.html">自由民主党住宅対策促進議員連盟総会</a><br />
+          <a href="activity/demand-proposal/180710.html">公明党幹部との政策懇談会</a></dd></dl></li>
+					<li class="list_item" data-group="a"><dl>
+					  <dt><span class="icon_brown">調　査</span><span class="date">2018/06/05</span></dt>
+					  <dd><a href="activity/proposal-activity/report04/index.html">平成29年の低層住宅の労働災害発生状況まとまる(2018.06.05訂正版)</a></dd></dl></li>
+				<li class="list_item" data-group="d"><dl>
+						  <dt><span class="icon_orange">要望･提言</span><span class="date">2017/12/11</span></dt>
+						  <dd><a href="activity/pdf/h29_rationalization_demand.pdf" target="_blank">建築関係法令の整備に関する要望書（国土交通大臣宛）</a></dd></dl></li>
+				<li class="list_item" data-group="d"><dl>
+						  <dt><span class="icon_orange">要望･提言</span><span class="date">2017/11/27</span></dt>
+						  <dd><a href="activity/pdf/h29_rationalization_demand_top.pdf" target="_blank">建築規制等の合理化に関する要望（建築指導課長宛）</a></dd></dl></li>
+						<li class="list_item" data-group="e"><dl>
+					  <dt><span class="icon_green">委員会</span><span class="date">2017/05/17</span></dt><dd>アスベストに係る事前調査結果の掲示例および記載例（石綿則 第3条関係、大防法 第18条の17第4項、大防法 施行規則 第16条の10関係）<br><font size="-1"><a href="download/pdf/example-lv1_lv2.pdf" target="_blank">レベル1・2掲示例および記載例</a><br><a href="download/pdf/example-lv3.pdf" target="_blank">レベル3掲示例および記載例</a></font></dd></dl></li>
+
+					<li class="list_item" data-group="e"><dl>
+					  <dt><span class="icon_green">委員会</span><span class="date">2017/03/31</span></dt><dd><a href="activity/proposal-activity/report05/pdf/5th-environmental-consciousness-awareness-report.pdf" target="_blank">第5回 環境行動意識 調査結果報告書の公表</a><font size="-1"><br>PDFを見る </font></dd></dl></li>
+
+					<li class="list_item" data-group="e"><dl>
+					  <dt><span class="icon_green">委員会</span><span class="date">2016/12/12</span></dt><dd><a href="activity/committee/kisei.html">「2016年度版 小規模建築物の増改築における 建築確認申請の手引き」</a></dd></dl></li>
+
+					<li class="list_item" data-group="e"><dl>
+					  <dt><span class="icon_green">委員会</span><span class="date">2015/04/01</span></dt><dd><a href="activity/pdf/colorful-town.pdf">「まちなみ環境委員会」制作による冊子「カラフルタウン―色を持ち寄るまちづくり」発行のお知らせ</a></dd></dl></li>
+					<li class="list_item" data-group="e"><dl>
+					  <dt><span class="icon_green">委員会</span><span class="date">2014/07/05</span></dt><dd><a href="activity/pdf/housing-industry_5th_20140707.pdf" target="_blank">「住宅産業の自主的環境行動計画 第5版」を発行</a></dd></dl></li>					<li class="list_item" data-group="e"><dl>
+					  <dt><span class="icon_green">委員会</span><span class="date">2008/03/27</span></dt><dd><a href="activity/other/news_20090327.html">住宅の請負契約を締結される個人の注文者の皆様へ</a></dd></dl></li>
+					<!--<li class="list_item" data-group="e"><dl>
+					  <dt><span class="icon_green">委員会</span><span class="date">2008/03/27</span></dt><dd><a href="#">個人の注文者と住宅建設工事の請負契約を締結する場合の前払い金等に関するガイドライン</a></dd></dl></li>-->
+			    </ul>
+			  </div>
+      </div><!-- .col3left -->
+      <div class="col3right">
+        <h2>ピックアップ</h2>
+        <ul class="pickup">
+								<li>
+						<a href="activity/committee/kisei.html">
+							<dl>
+								<dt>
+									<span class="eyecatch"><img src="img/eyecatch-190401.png" /></span>
+								</dt>
+								<dd>
+									<span class="icon">委員会</span>
+									<span class="date">2019/04/01</span>
+									<span class="title_s">2018年度版小規模建築物の<br>
+									増改築における建築確認申請の手引きを制作</span>
+							  </dd>
+							</dl>
+						</a>
+					</li>
+			
+					<li>
+						<a href="activity/event/ehon/picture_book_15_1903.pdf" target="_blank">
+							<dl>
+								<dt>
+									<span class="eyecatch"><img src="img/eyecatch_ehon.png" /></span>
+								</dt>
+								<dd>
+									<span class="icon">委員会</span>
+									<span class="date">2019/03/22</span>
+									<span class="title2">第15回「家やまちの絵本」コンクール開催のお知らせ<br /></span>
+									<span class="text">応募期間：2019年7月20日（土）～2019年9月6日（金）</span>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="publication/journal.html">
+							<dl>
+								<dt>
+									<span class="eyecatch"><img src="img/eyecatch0.png" /></span>
+								</dt>
+								<dd>
+									<span class="icon">出版物</span>
+									<span class="date">2019/03/08</span>
+									<span class="title">機関誌「住団連」平成31年3月号　Vol.304</span>
+									<span class="text"> 経営者の住宅景況感調査（平成31年1月度）報告</span>
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="activity/pdf/H30_support measures181225_2.pdf" target="_blank">
+							<dl>
+								<dt>
+									<span class="eyecatch"><img src="img/eyecatch190110.png" /></span>
+								</dt>
+								<dd>
+									<span class="icon">委員会</span>
+									<span class="date">2019/01/10</span>
+									<span class="title2">消費税率引上げに伴う住宅取得・リフォーム支援策の<br>
+									リーフレットを作成しました！</span>
+									<span class="text">住団連リーフレット　2019年1月10日 改訂版 掲載 </span>
+								</dd>
+							</dl>
+						</a>
+					</li>
+
+		</ul>
+      </div><!-- .col3right -->
+
+        <div>
+			<ul class="top_menu">
+				<li><a href="activity/demand-proposal.html">提言・要望</a></li>
+				<li><a href="activity/proposal-activity.html">各種調査報告</a></li>
+				<li><a href="publication/journal.html">機関誌<br />「住団連」</a></li>
+				<li><a href="activity/committee.html">委員会</a></li>
+				<li><a href="activity/event.html">イベント・<br />講習会</a></li>
+				<li><a href="about/information.html">役員・<br />会員名簿</a></li>
+			</ul>
+        </div>
+        
+        </div>
+        
+			<div class="col3banner">
+				<ul>
+					<li class="jutaku-sumai-web banner_left">
+						<a href="http://www.jutaku-sumai.jp/index.html" target="_blank"><img src="img/banner/bn_01jsw_title.gif" alt="住宅・すまいweb" /></a>
+							<a href="http://www.jutaku-sumai.jp/sympo02.html" target="_blank"><div class="sympo3d"><img src="img/banner/jsw_symo3d_title.gif" / alt="立体シンポジウム" /><p>今、最も注目されているテーマについて専門プロデューサーが多角面に語る！</p></div></a>
+<!--							<ul class="jsw_list">
+								<li><a href="http://www.jutaku-sumai.jp/p012.html" target="_blank">高齢者とすまい・まち</a></li>
+								<li><a href="http://www.jutaku-sumai.jp/p022.html" target="_blank">まちなみとすまい</a></li>
+								<li><a href="http://www.jutaku-sumai.jp/p032.html" target="_blank">環境とすまい</a></li>
+								<li><a href="http://www.jutaku-sumai.jp/p042.html" target="_blank">ライフスタイルとすまい</a></li>
+								<li><a href="http://www.jutaku-sumai.jp/p082.html" target="_blank">教育とすまい・まち</a></li>
+							</ul>
+-->					</li>
+					<li><a href="http://www.jutaku-sumai.jp/ehon/index.html" target="_blank"><img src="img/banner/bn_04.gif" alt="家やまちの絵本コンクール" /></a></li>
+                    </ul>
+                    <ul style="margin-top:20px;">
+					<li class="banner_left"><a href="http://www.land.mlit.go.jp/webland/" target="_blank"><img src="img/banner/bn_05.jpg" alt="この辺りの土地っていくら？　不動産の価格検索" /></a></li>
+    				<li class="banner_left"><span id="ss_gmo_img_wrapper_130-66_image_ja"><a href="https://jp.globalsign.com/" target="_blank" rel="nofollow">
+    <img alt="SSL　GMOグローバルサインのサイトシール" border="0" id="ss_img" src="//seal.globalsign.com/SiteSeal/images/gs_noscript_130-66_ja.gif">
+    </a>
+    </span>
+    <script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gmogs_image_130-66_ja.js" defer="defer"></script></li>
+<script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gmogs_image_100-50_ja.js" defer="defer"></script>	
+					<!--<li><a href="#"><img src="img/banner/bn_03.jpg" alt="10月は住生活月間" /></a></li>-->
+
+                    </ul>
+			</div>
+            
+    </div><!-- .inner -->
+  </div><!-- .wrap -->
+</article>
+<!--
+=======================================================================================
+top link
+=======================================================================================
+--><!-- #BeginLibraryItem "/Library/pagetop.lbi" -->
+<div id="pagetop" class="clearfix">
+<span>
+	<a href="#"><span id="pagetop_triangle"></span><span>PAGE TOP</span></a></span></div><!-- #EndLibraryItem --><!--
+=======================================================================================
+footer
+=======================================================================================
+--><!-- #BeginLibraryItem "/Library/footer.lbi" --><footer>
+  <div class="wrap">
+    <div class="inner clearfix">
+			<ul>
+				<li><h3>住団連について</h3></li>
+				<li><a href="about/aboutus.html">住団連とは</a></li>
+				<li><a href="about/activities.html">事業概要</a></li>
+				<li><a href="about/charter.html">倫理憲章</a></li>
+				<li><a href="about/access.html">アクセス・問い合わせ</a></li>
+				<li><a href="about/link.html">関連リンク</a></li>
+			</ul>
+			<ul>
+				<li><h3>活動内容</h3></li>
+				<li><a href="activity/demand-proposal.html">要望・提言</a></li>
+				<li><a href="activity/committee.html">委員会</a></li>
+				<li><a href="activity/proposal-activity.html">各種調査報告</a></li>
+				<li><a href="activity/event.html">イベント・講習会</a></li>
+				<li><a href="activity/other.html">その他</a></li>
+			</ul>
+			<ul>
+				<li><h3>行政情報</h3></li>
+				<li><a href="administrative_info/housing_tax.html">住宅税制関連</a></li>
+				<li><a href="administrative_info/building_law.html">建築法令関連</a></li>
+				<li><a href="administrative_info/other_law.html">その他法令関連</a></li>
+				<li><a href="administrative_info/policy.html">政策・制度関連</a></li>
+				<li><a href="administrative_info/statistics.html">住宅関連統計</a></li>
+				<li><a href="administrative_info/industry_news.html">業界の動向・ニュース</a></li>
+			</ul>
+			<ul>
+				<li><h3>出版物</h3></li>
+				<li><a href="publication/journal.html">機関誌「住団連」</a></li>
+				<li><a href="publication/press.html">住団連プレス</a></li>
+				<li><a href="publication/publication.html">その他出版物</a></li>
+			</ul>
+			<ul>
+				<li><h3>書式ダウンロード</h3></li>
+				<li><a href="download/download_01.html">建設廃棄物委託基本契約書</a></li>
+				<li><a href="download/download_02.html">安全教育報告書</a></li>
+				<li><a href="download/download_03.html">アスベストに係る事前調査結果の掲示例及び記載例</a></li>
+				<br />
+				<li><a href="about/privacy.html">個人情報の取り扱いについて</a></li>
+				<!--<li><a href="#">サイト利用規約</a></li>-->
+			</ul>
+    </div><!-- .inner -->
+		<div class="inner">
+			<div id="footer_name">
+				<h4><img src="img/footer_logo.png" alt="一般社団法人 住宅生産団体連合会" /></h4>
+			</div><!-- #footer_name -->
+		</div><!-- .inner -->
+  </div><!-- .wrap -->
+</footer><!-- #EndLibraryItem --></body>
+</html>
